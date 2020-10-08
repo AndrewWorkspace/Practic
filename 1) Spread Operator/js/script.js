@@ -16,5 +16,5 @@ const b = a;
 b.b.m.now = 2020;
 console.log(b);
 
-const {y} = b
-console.log(y)
+const {y:{v: getV}} = b
+console.log(getV)
